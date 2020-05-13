@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+    
+    
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Toe"
+        android:textColor="#317478"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_marginBottom="50dp"
+
+        />
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    android:layout_gravity="center"
+
+>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <androidx.appcompat.widget.AppCompatButton
+
+
+                android:id="@+id/A"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/D"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/G"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/B"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/E"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/H"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/C"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/F"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/I"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/resetbtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Reset"
+        android:textColor="#CB84FA"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_button"
+
+
+
+        android:layout_marginTop="30dp"/>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
